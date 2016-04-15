@@ -1,0 +1,45 @@
+package example.framework.layer.log;
+
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public final class LogHelper {
+    public static void info(String format, Object... arguments) {
+        StackTraceElement stack[] = (new Throwable()).getStackTrace();
+        Logger logger = LoggerFactory.getLogger(stack[1].getClassName());
+        if(logger.isInfoEnabled()) {
+            logger.info(format, arguments);
+        }
+    }
+
+    public static void error(String format, Object... arguments) {
+        StackTraceElement stack[] = (new Throwable()).getStackTrace();
+        Logger logger = LoggerFactory.getLogger(stack[1].getClassName());
+        if(logger.isErrorEnabled()) {
+            logger.error(format, arguments);
+        }
+    }
+
+    public static void debug(String format, Object... arguments) {
+        StackTraceElement stack[] = (new Throwable()).getStackTrace();
+        Logger logger = LoggerFactory.getLogger(stack[1].getClassName());
+        if(logger.isDebugEnabled()){
+            logger.debug(format, arguments);
+        }
+    }
+
+    public static void warn(String format, Object... arguments) {
+        StackTraceElement stack[] = (new Throwable()).getStackTrace();
+        Logger logger = LoggerFactory.getLogger(stack[1].getClassName());
+        logger.warn(format, arguments);
+    }
+
+    public static void exception(Exception e) {
+        StackTraceElement stack[] = (new Throwable()).getStackTrace();
+        Logger logger = LoggerFactory.getLogger(stack[1].getClassName());
+        if(logger.isErrorEnabled()){
+            logger.error(e.getMessage(),e);
+        }
+    }
+}

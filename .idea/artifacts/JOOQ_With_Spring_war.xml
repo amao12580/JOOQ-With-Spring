@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JOOQ-With-Spring:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="jooq-with-spring-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JOOQ-With-Spring:war exploded" />
+    </root>
+  </artifact>
+</component>
