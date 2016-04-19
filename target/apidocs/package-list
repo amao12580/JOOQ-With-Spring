@@ -10,9 +10,17 @@ example.dao.layer.rdbms.base.model.tables
 example.dao.layer.rdbms.base.model.tables.records
 example.dao.layer.rdbms.order
 example.dao.layer.rdbms.order.impl
+example.dao.layer.rdbms.orderLog
+example.dao.layer.rdbms.orderLog.impl
+example.framework.layer.constant
 example.framework.layer.controller
+example.framework.layer.controller.interceptor
 example.framework.layer.exception
 example.framework.layer.log
+example.framework.layer.plugin
 example.framework.layer.protocol.response
 example.framework.layer.rdbms.transaction
+example.framework.layer.security
+example.framework.layer.security.plugins
+example.framework.layer.security.plugins.impl.XSS
 example.framework.layer.util

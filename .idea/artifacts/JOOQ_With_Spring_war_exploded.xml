@@ -22,6 +22,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.5.4" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
           <element id="library" level="project" name="Maven: org.jooq:jooq-codegen:3.7.3" />
           <element id="library" level="project" name="Maven: org.jooq:jooq:3.7.3" />
           <element id="library" level="project" name="Maven: org.jooq:jooq-meta:3.7.3" />

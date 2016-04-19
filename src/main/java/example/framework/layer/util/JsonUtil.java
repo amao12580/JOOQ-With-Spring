@@ -18,4 +18,7 @@ public class JsonUtil {
     protected static String toJsonString(Map<String,Object> map){
         return JSON.toJSONString(map);
     }
+    protected static <T> T parseObject(String text, Class<T> clazz){
+        return JSON.parseObject(text,clazz);
+    }
 }

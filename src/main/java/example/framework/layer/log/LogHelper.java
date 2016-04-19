@@ -42,4 +42,12 @@ public final class LogHelper {
             logger.error(e.getMessage(),e);
         }
     }
+
+    public static void exception(String msg,Throwable e) {
+        StackTraceElement stack[] = (new Throwable()).getStackTrace();
+        Logger logger = LoggerFactory.getLogger(stack[1].getClassName());
+        if(logger.isErrorEnabled()){
+            logger.error(msg,e);
+        }
+    }
 }

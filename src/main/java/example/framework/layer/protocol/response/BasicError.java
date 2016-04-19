@@ -10,20 +10,18 @@ import java.util.Map;
 public enum BasicError implements Error {
     DEFAULT(defaultCode,defaultMessage),
     SYSTEM_INNER_ERROR(1,"系统内部错误."),
-    ;
 
+    ;
 
     private int code=defaultCode;
     private String message=defaultMessage;
-
-
 
     static {
         init();
     }
 
     private static void init() {
-        if(codes.isEmpty()){
+        if(Error.isEmpty()){
             for (BasicError type : BasicError.values()) {
                 checkRepeatDefined(type.getCode());
             }
@@ -37,14 +35,10 @@ public enum BasicError implements Error {
     }
 
     public final static void checkRepeatDefined(int code) {
-        if(!codes.add(code)){
+        if(!Error.set(code)){
             throw new CheckException(SYSTEM_INNER_ERROR,"检查到重复的错误码定义："+code);
         }
     }
-
-    BasicError(){
-    }
-
 
     @Override
     public final int getCode() {
@@ -58,7 +52,7 @@ public enum BasicError implements Error {
 
     @Override
     public final String toString() {
-        return Utils.toJsonString(this);
+        return Utils.toString(this);
     }
 
     @Override
@@ -70,6 +64,6 @@ public enum BasicError implements Error {
         Map<String,Object> map=new HashMap<>(2);
         map.put("code",result.getCode());
         map.put("message", remark);
-        return Utils.toJsonString(map);
+        return Utils.toString(map);
     }
 }

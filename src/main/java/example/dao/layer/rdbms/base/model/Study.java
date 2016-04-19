@@ -5,6 +5,7 @@ package example.dao.layer.rdbms.base.model;
 
 
 import example.dao.layer.rdbms.base.model.tables.Order;
+import example.dao.layer.rdbms.base.model.tables.OrderLog;
 import example.dao.layer.rdbms.base.model.tables.SchemaVersion;
 import example.dao.layer.rdbms.base.model.tables.User;
 
@@ -31,7 +32,7 @@ import org.jooq.impl.SchemaImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Study extends SchemaImpl {
 
-	private static final long serialVersionUID = 1835475734;
+	private static final long serialVersionUID = -1702942234;
 
 	/**
 	 * The reference instance of <code>study</code>
@@ -55,6 +56,7 @@ public class Study extends SchemaImpl {
 	private final List<Table<?>> getTables0() {
 		return Arrays.<Table<?>>asList(
 			Order.ORDER,
+			OrderLog.ORDER_LOG,
 			SchemaVersion.SCHEMA_VERSION,
 			User.USER);
 	}

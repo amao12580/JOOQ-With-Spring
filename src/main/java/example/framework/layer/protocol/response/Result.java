@@ -4,6 +4,11 @@ import example.base.layer.protocol.response.APIError;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 /**
  * Created with IntelliJ IDEA.
  * User:ChengLiang

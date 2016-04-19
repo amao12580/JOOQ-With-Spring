@@ -1,5 +1,7 @@
 package example.framework.layer.protocol.response;
 
+import example.framework.layer.constant.ErrorConstant;
+
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -12,7 +14,14 @@ import java.util.Set;
 public interface Error {
     int defaultCode=0;
     String defaultMessage="ok.";
-    Set<Integer> codes=new LinkedHashSet<>();
+
+    static boolean set(Integer code){
+        return ErrorConstant.set(code);
+    }
+
+    static boolean isEmpty(){
+        return ErrorConstant.isEmpty();
+    }
 
     int getCode();
 

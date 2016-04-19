@@ -87,6 +87,16 @@
             <version>${org.springframework.version}</version>
         </dependency>
         <dependency>
+            <groupId>aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>1.5.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.8.9</version>
+        </dependency>
+        <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.0-b01</version>
@@ -286,6 +296,9 @@
                 <configuration>
                     <charset>${file_encoding}</charset>
                     <encoding>${file_encoding}</encoding>
+                    <dependencySourceExcludes>
+                        <dependencySourceExclude>${code.generator.packageName}:*</dependencySourceExclude>
+                    </dependencySourceExcludes>
                 </configuration>
                 <executions>
                     <execution>

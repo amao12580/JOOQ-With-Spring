@@ -5,6 +5,7 @@ package example.dao.layer.rdbms.base.model;
 
 
 import example.dao.layer.rdbms.base.model.tables.Order;
+import example.dao.layer.rdbms.base.model.tables.OrderLog;
 import example.dao.layer.rdbms.base.model.tables.SchemaVersion;
 import example.dao.layer.rdbms.base.model.tables.User;
 
@@ -28,6 +29,11 @@ public class Tables {
 	 * The table study.order
 	 */
 	public static final Order ORDER = example.dao.layer.rdbms.base.model.tables.Order.ORDER;
+
+	/**
+	 * 订单状态变化表
+	 */
+	public static final OrderLog ORDER_LOG = example.dao.layer.rdbms.base.model.tables.OrderLog.ORDER_LOG;
 
 	/**
 	 * The table study.schema_version

@@ -48,6 +48,11 @@ public class CheckException extends BaseException {
         this.code = error .getCode();
     }
 
+    public CheckException(int code, String message) {
+        super(message);
+        this.code = code;
+    }
+
     public int getCode() {
         return code;
     }

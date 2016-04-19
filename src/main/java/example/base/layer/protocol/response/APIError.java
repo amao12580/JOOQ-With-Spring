@@ -7,6 +7,7 @@ import example.framework.layer.util.Utils;
 
 public enum APIError implements Error {
     DEFAULT,
+    ORDER_NOT_EXISTS(1000,"订单不存在"),
     ;
 
     private int code= BasicError.DEFAULT.getCode();
@@ -29,7 +30,7 @@ public enum APIError implements Error {
 
     @Override
     public final String toString() {
-        return Utils.toJsonString(this);
+        return Utils.toString(this);
     }
 
     @Override

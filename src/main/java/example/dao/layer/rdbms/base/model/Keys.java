@@ -5,8 +5,10 @@ package example.dao.layer.rdbms.base.model;
 
 
 import example.dao.layer.rdbms.base.model.tables.Order;
+import example.dao.layer.rdbms.base.model.tables.OrderLog;
 import example.dao.layer.rdbms.base.model.tables.SchemaVersion;
 import example.dao.layer.rdbms.base.model.tables.User;
+import example.dao.layer.rdbms.base.model.tables.records.OrderLogRecord;
 import example.dao.layer.rdbms.base.model.tables.records.OrderRecord;
 import example.dao.layer.rdbms.base.model.tables.records.SchemaVersionRecord;
 import example.dao.layer.rdbms.base.model.tables.records.UserRecord;
@@ -37,6 +39,7 @@ public class Keys {
 	// -------------------------------------------------------------------------
 
 	public static final Identity<OrderRecord, Integer> IDENTITY_ORDER = Identities0.IDENTITY_ORDER;
+	public static final Identity<OrderLogRecord, Integer> IDENTITY_ORDER_LOG = Identities0.IDENTITY_ORDER_LOG;
 	public static final Identity<UserRecord, Integer> IDENTITY_USER = Identities0.IDENTITY_USER;
 
 	// -------------------------------------------------------------------------
@@ -44,6 +47,7 @@ public class Keys {
 	// -------------------------------------------------------------------------
 
 	public static final UniqueKey<OrderRecord> KEY_ORDER_PRIMARY = UniqueKeys0.KEY_ORDER_PRIMARY;
+	public static final UniqueKey<OrderLogRecord> KEY_ORDER_LOG_PRIMARY = UniqueKeys0.KEY_ORDER_LOG_PRIMARY;
 	public static final UniqueKey<SchemaVersionRecord> KEY_SCHEMA_VERSION_PRIMARY = UniqueKeys0.KEY_SCHEMA_VERSION_PRIMARY;
 	public static final UniqueKey<UserRecord> KEY_USER_PRIMARY = UniqueKeys0.KEY_USER_PRIMARY;
 	public static final UniqueKey<UserRecord> KEY_USER_INDEX_MOBILE = UniqueKeys0.KEY_USER_INDEX_MOBILE;
@@ -59,11 +63,13 @@ public class Keys {
 
 	private static class Identities0 extends AbstractKeys {
 		public static Identity<OrderRecord, Integer> IDENTITY_ORDER = createIdentity(Order.ORDER, Order.ORDER.ORDER_ID);
+		public static Identity<OrderLogRecord, Integer> IDENTITY_ORDER_LOG = createIdentity(OrderLog.ORDER_LOG, OrderLog.ORDER_LOG.ID);
 		public static Identity<UserRecord, Integer> IDENTITY_USER = createIdentity(User.USER, User.USER.UID);
 	}
 
 	private static class UniqueKeys0 extends AbstractKeys {
 		public static final UniqueKey<OrderRecord> KEY_ORDER_PRIMARY = createUniqueKey(Order.ORDER, Order.ORDER.ORDER_ID);
+		public static final UniqueKey<OrderLogRecord> KEY_ORDER_LOG_PRIMARY = createUniqueKey(OrderLog.ORDER_LOG, OrderLog.ORDER_LOG.ID);
 		public static final UniqueKey<SchemaVersionRecord> KEY_SCHEMA_VERSION_PRIMARY = createUniqueKey(SchemaVersion.SCHEMA_VERSION, SchemaVersion.SCHEMA_VERSION.INSTALLED_RANK);
 		public static final UniqueKey<UserRecord> KEY_USER_PRIMARY = createUniqueKey(User.USER, User.USER.UID);
 		public static final UniqueKey<UserRecord> KEY_USER_INDEX_MOBILE = createUniqueKey(User.USER, User.USER.MOBILE);

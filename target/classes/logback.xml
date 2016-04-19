@@ -128,11 +128,9 @@
         </encoder>  
     </appender>  
   
-    <logger name="java.sql.PreparedStatement" value="DEBUG" />    
-    <logger name="java.sql.Connection" value="DEBUG" />    
-    <logger name="java.sql.Statement" value="DEBUG" />
-    <logger name="org.springframework"  level="ERROR" />    
+    <logger name="org.springframework"  level="ERROR" />
     <logger name="com.zaxxer.hikari"  level="ERROR" />
+    <logger name="org.jooq.Constants"  level="ERROR" />
 
     <!-- root级别   DEBUG -->
     <root level="debug">
