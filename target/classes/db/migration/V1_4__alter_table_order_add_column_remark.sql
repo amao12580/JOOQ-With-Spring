@@ -1,0 +1,1 @@
+ALTER TABLE `order` ADD COLUMN `remark`  varchar(50) NULL DEFAULT '' COMMENT '¶©µ¥±¸×¢' AFTER `amout`;

@@ -35,7 +35,7 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Order extends TableImpl<OrderRecord> {
 
-	private static final long serialVersionUID = 57361900;
+	private static final long serialVersionUID = 1922810982;
 
 	/**
 	 * The reference instance of <code>study.order</code>
@@ -64,6 +64,11 @@ public class Order extends TableImpl<OrderRecord> {
 	 * The column <code>study.order.amout</code>. 订单金额(单位为分)
 	 */
 	public final TableField<OrderRecord, Long> AMOUT = createField("amout", org.jooq.impl.SQLDataType.BIGINT.nullable(false), this, "订单金额(单位为分)");
+
+	/**
+	 * The column <code>study.order.remark</code>. ������ע
+	 */
+	public final TableField<OrderRecord, String> REMARK = createField("remark", org.jooq.impl.SQLDataType.VARCHAR.length(50).defaulted(true), this, "������ע");
 
 	/**
 	 * The column <code>study.order.status</code>. 订单状态

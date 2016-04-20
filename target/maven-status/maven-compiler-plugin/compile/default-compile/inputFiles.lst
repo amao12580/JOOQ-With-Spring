@@ -24,7 +24,6 @@ D:\GitHub\JOOQ-With-Spring\src\main\java\example\framework\layer\plugin\BasicPlu
 D:\GitHub\JOOQ-With-Spring\src\main\java\example\framework\layer\constant\ErrorConstant.java
 D:\GitHub\JOOQ-With-Spring\src\main\java\example\dao\layer\rdbms\orderLog\impl\OrderLogDaoImpl.java
 D:\GitHub\JOOQ-With-Spring\src\main\java\example\framework\layer\rdbms\transaction\SpringTransaction.java
-D:\GitHub\JOOQ-With-Spring\src\main\java\example\framework\layer\rdbms\transaction\Transactionable.java
 D:\GitHub\JOOQ-With-Spring\src\main\java\example\dao\layer\rdbms\orderLog\OrderLogDao.java
 D:\GitHub\JOOQ-With-Spring\src\main\java\example\framework\layer\controller\interceptor\SafetyResponseInterceptor.java
 D:\GitHub\JOOQ-With-Spring\src\main\java\example\framework\layer\util\DatetimeUtil.java

@@ -1,9 +1,9 @@
 package org.jooq.example;
 
-import example.business.layer.order.bo.OrderBo;
-import example.business.layer.order.service.OrderService;
+import example.controller.layer.order.OrderController;
 import example.framework.layer.log.LogHelper;
-import org.jooq.DSLContext;
+import example.framework.layer.protocol.response.Result;
+import example.framework.layer.util.Utils;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,14 +17,15 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class OrderTest {
 
     @Autowired
-    OrderService orderService;
+    OrderController orderController;
 
     @Test
     public void testCreate() throws Exception {
-        OrderBo bo=new OrderBo();
-        bo.setAmout(8958);
-        int order_id=orderService.add(10010,bo);
-        LogHelper.info("order_id:{}",order_id);
-        Assert.assertNotEquals("订单创建失败.", order_id, 0);
+        Result result=orderController.add(8574l,"我是备注");
+        LogHelper.info("result:{}", Utils.toString(result));
+        Assert.assertNotNull("订单创建失败,返回对象为null.", result);
+        int order_id=Integer.valueOf(result.getData().toString());
+        LogHelper.info("order_id:{}", order_id);
+        Assert.assertNotEquals("订单创建失败,订单号不正确.", order_id, 0);
     }
 }

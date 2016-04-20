@@ -31,7 +31,6 @@ example\framework\layer\rdbms\transaction\SpringTransactionProvider.class
 example\dao\layer\rdbms\base\model\tables\records\OrderRecord.class
 example\dao\layer\rdbms\base\model\Keys.class
 example\framework\layer\protocol\response\Result.class
-example\framework\layer\rdbms\transaction\Transactionable.class
 example\framework\layer\security\plugins\impl\XSS\XSSSercurityHandler.class
 example\framework\layer\controller\SystemErrorController.class
 example\framework\layer\exception\CheckException.class

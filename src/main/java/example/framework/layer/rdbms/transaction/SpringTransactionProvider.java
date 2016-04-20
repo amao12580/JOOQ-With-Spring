@@ -1,19 +1,16 @@
 package example.framework.layer.rdbms.transaction;
 
-import static org.springframework.transaction.TransactionDefinition.PROPAGATION_NESTED;
-
+import example.framework.layer.log.LogHelper;
 import org.jooq.TransactionContext;
 import org.jooq.TransactionProvider;
-import org.jooq.tools.JooqLogger;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.DefaultTransactionDefinition;
 
-public class SpringTransactionProvider implements TransactionProvider {
+import org.springframework.transaction.TransactionDefinition;
 
-    private static final JooqLogger log = JooqLogger.getLogger(SpringTransactionProvider.class);
+public class SpringTransactionProvider implements TransactionProvider {
 
     @Autowired
     DataSourceTransactionManager txMgr;
@@ -33,20 +30,23 @@ public class SpringTransactionProvider implements TransactionProvider {
      */
     @Override
     public void begin(TransactionContext ctx) {
-        log.info("Begin transaction");
-        TransactionStatus tx = txMgr.getTransaction(new DefaultTransactionDefinition(PROPAGATION_NESTED));//如果当前存在事务，则在嵌套事务内执行。如果当前没有事务，则进行与PROPAGATION_REQUIRED类似的操作。
+        LogHelper.debug("begin transaction.");
+        //如果当前存在事务，则在嵌套事务内执行。如果当前没有事务，则进行与PROPAGATION_REQUIRED类似的操作。
+        TransactionStatus tx = txMgr.getTransaction(new DefaultTransactionDefinition(TransactionDefinition.PROPAGATION_NESTED));
         ctx.transaction(new SpringTransaction(tx));
     }
 
     @Override
     public void commit(TransactionContext ctx) {
-        log.info("commit transaction");
+        LogHelper.debug("commit transaction.ctx:{}",ctx.toString());
         txMgr.commit(((SpringTransaction) ctx.transaction()).tx);
+        LogHelper.debug("commit complete.");
     }
 
     @Override
     public void rollback(TransactionContext ctx) {
-        log.info("rollback transaction");
+        LogHelper.debug("rollback transaction.ctx:{}",ctx.toString());
         txMgr.rollback(((SpringTransaction) ctx.transaction()).tx);
+        LogHelper.debug("rollback complete.");
     }
 }

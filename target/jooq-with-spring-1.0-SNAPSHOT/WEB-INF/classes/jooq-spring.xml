@@ -69,7 +69,7 @@
         <constructor-arg ref="config" />
     </bean>
 
-    <bean id="exceptionTranslator" class="example.framework.layer.exception.TranslatorException" />
+    <bean id="translatorException" class="example.framework.layer.exception.TranslatorException" />
 
     <!-- Invoking an internal, package-private constructor for the example
          Implement your own Configuration for more reliable behaviour -->
@@ -80,7 +80,7 @@
         <property name="executeListenerProvider">
             <array>
                 <bean class="org.jooq.impl.DefaultExecuteListenerProvider">
-                    <constructor-arg index="0" ref="exceptionTranslator"/>
+                    <constructor-arg index="0" ref="translatorException"/>
                 </bean>
             </array>
         </property>

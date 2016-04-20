@@ -12,4 +12,5 @@ public class OrderBo {
     long amout;
     int status;
     long order_time;
+    String remark;
 }
