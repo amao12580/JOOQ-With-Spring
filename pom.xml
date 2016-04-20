@@ -17,9 +17,9 @@
         <org.jooq.version>3.7.3</org.jooq.version>
         <mysql.version>5.1.38</mysql.version>
 
-        <logback.version>[1.1.7,)</logback.version>
-        <logback.ext.spring>[0.1.4,)</logback.ext.spring>
+        <log4j.version>[2.5,)</log4j.version>
         <slf4j.version>[1.7.21,)</slf4j.version>
+
         <alibaba.fastjson>[1.2.8,)</alibaba.fastjson>
 
         <org.projectlombok>1.16.8</org.projectlombok>
@@ -49,15 +49,16 @@
 
     <dependencies>
         <!-- 日志组件 -->
+        <!--日志-->
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>${logback.version}</version>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j.version}</version>
         </dependency>
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-core</artifactId>
-            <version>${logback.version}</version>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -65,9 +66,9 @@
             <version>${slf4j.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.logback-extensions</groupId>
-            <artifactId>logback-ext-spring</artifactId>
-            <version>${logback.ext.spring}</version>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>${log4j.version}</version>
         </dependency>
 
         <!-- Spring (transitive dependencies are not listed explicitly) -->

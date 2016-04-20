@@ -34,6 +34,13 @@ public class OrderController extends BasicController {
 	@ResponseBody
 	public Result add(Long amount,String remark) {
 		LogHelper.info("amount:{}", amount);
+
+		LogHelper.info("测试日志info:{}", amount);
+		LogHelper.warn("测试日志warn:{}", amount);
+		LogHelper.debug("测试日志debug:{}", amount);
+		LogHelper.error("测试日志error:{}", amount);
+		LogHelper.exception("测试日志exception:{}", null);
+
         OrderBo bo=new OrderBo();
         bo.setAmout(amount);
         int orderId=orderService.add(uid,bo);

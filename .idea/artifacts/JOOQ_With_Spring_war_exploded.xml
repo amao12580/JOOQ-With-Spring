@@ -7,10 +7,10 @@
           <element id="module-output" name="JOOQ-With-Spring" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.7" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.7" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.5" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.5" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
-          <element id="library" level="project" name="Maven: org.logback-extensions:logback-ext-spring:0.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.5" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
@@ -31,7 +31,7 @@
           <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:2.4.5" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.8" />
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.9.3" />
-          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.8" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.9" />
         </element>
       </element>
       <element id="directory" name="META-INF">
