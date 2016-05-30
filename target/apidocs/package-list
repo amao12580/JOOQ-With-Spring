@@ -4,6 +4,8 @@ example.business.layer.order.enums
 example.business.layer.order.service
 example.business.layer.order.service.impl
 example.business.layer.order.vo
+example.business.layer.user.service
+example.business.layer.user.service.impl
 example.controller.layer.order
 example.dao.layer.rdbms.base.model
 example.dao.layer.rdbms.base.model.tables
@@ -12,6 +14,8 @@ example.dao.layer.rdbms.order
 example.dao.layer.rdbms.order.impl
 example.dao.layer.rdbms.orderLog
 example.dao.layer.rdbms.orderLog.impl
+example.dao.layer.rdbms.user
+example.dao.layer.rdbms.user.impl
 example.framework.layer.constant
 example.framework.layer.controller
 example.framework.layer.controller.interceptor

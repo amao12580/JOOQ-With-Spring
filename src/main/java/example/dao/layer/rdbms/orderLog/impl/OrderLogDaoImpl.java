@@ -4,6 +4,7 @@ import example.business.layer.order.enums.Status;
 import example.dao.layer.rdbms.base.model.tables.records.OrderLogRecord;
 import example.dao.layer.rdbms.orderLog.OrderLogDao;
 import example.framework.layer.log.LogHelper;
+import example.framework.layer.rdbms.transaction.JooqTransactionFactory;
 import example.framework.layer.util.Utils;
 import org.jooq.DSLContext;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,17 +19,17 @@ import static example.dao.layer.rdbms.base.model.Tables.ORDER_LOG;
  * Time:18:31
  */
 @Repository
-public class OrderLogDaoImpl implements OrderLogDao{
+public class OrderLogDaoImpl implements OrderLogDao {
     @Autowired
-    DSLContext dsl;
+    JooqTransactionFactory jooq;
 
     @Override
-    public int add(int orderId,Status status) {
-        OrderLogRecord orderLogRecord=dsl.newRecord(ORDER_LOG);
+    public int add(int orderId, Status status) {
+        OrderLogRecord orderLogRecord = jooq.context().newRecord(ORDER_LOG);
         orderLogRecord.setOrderId(orderId);
         orderLogRecord.setStatus(status.getValue());
         orderLogRecord.setChangeTime(Utils.nowTime());
-        int insertRet=orderLogRecord.insert();
+        int insertRet = orderLogRecord.insert();
         LogHelper.info("数据库操作返回值：{}", insertRet);
         return orderLogRecord.getId();
     }

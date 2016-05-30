@@ -1,7 +1,6 @@
 package example.framework.layer.controller.interceptor;
 
 import example.framework.layer.exception.BaseException;
-import example.framework.layer.exception.CheckException;
 import example.framework.layer.log.LogHelper;
 import example.framework.layer.protocol.response.BasicError;
 import example.framework.layer.protocol.response.Result;
@@ -18,7 +17,7 @@ import org.springframework.stereotype.Component;
  * User:ChengLiang
  * Date:2016/4/18
  * Time:12:37
- *
+ * <p>
  * REF:http://www.cnblogs.com/shunyang/p/3300179.html
  */
 //声明该类为一个切面
@@ -46,7 +45,7 @@ public class SafetyResponseInterceptor {
     @Before("excute()")
     public void doAccessCheck(JoinPoint point) {//获取所有的参数，可以做SQL注入等多个安全检查
         LogHelper.info("前置通知，输入参数为:{}", Utils.toString(point.getArgs()));
-        Utils.throwIfNotEquals(SercurityPlugins.checkAll(point.getArgs()),true,BasicError.SYSTEM_INNER_ERROR,"检查到非法参数，拒绝执行.");
+        Utils.throwIfNotEquals(SercurityPlugins.checkAll(point.getArgs()), true, BasicError.SYSTEM_INNER_ERROR, "检查到非法参数，拒绝执行.");
     }
 
     // 返回值类型为字符串
@@ -75,11 +74,11 @@ public class SafetyResponseInterceptor {
             result = (Result) pjp.proceed();
         } catch (Throwable e) {
             LogHelper.exception("The server appeared abnormal.", e);
-            if(e instanceof BaseException){//系统内正确抛出的异常不做处理
-                if(e.getMessage()!=null){
-                    result=Utils.parseObject(e.getMessage(),Result.class);
+            if (e instanceof BaseException) {//系统内正确抛出的异常不做处理
+                if (e.getMessage() != null) {
+                    result = Utils.parseObject(e.getMessage(), Result.class);
                 }
-            }else{
+            } else {
                 result = error;
             }
         } finally {

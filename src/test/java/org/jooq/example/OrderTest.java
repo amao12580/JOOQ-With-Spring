@@ -21,10 +21,10 @@ public class OrderTest {
 
     @Test
     public void testCreate() throws Exception {
-        Result result=orderController.add(8574l,"我是备注");
+        Result result = orderController.add(8574l, "我是备注");
         LogHelper.info("result:{}", Utils.toString(result));
         Assert.assertNotNull("订单创建失败,返回对象为null.", result);
-        int order_id=Integer.valueOf(result.getData().toString());
+        int order_id = Integer.valueOf(result.getData().toString());
         LogHelper.info("order_id:{}", order_id);
         Assert.assertNotEquals("订单创建失败,订单号不正确.", order_id, 0);
     }

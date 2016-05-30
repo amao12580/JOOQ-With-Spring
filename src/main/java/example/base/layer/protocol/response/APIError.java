@@ -7,14 +7,13 @@ import example.framework.layer.util.Utils;
 
 public enum APIError implements Error {
     DEFAULT,
-    ORDER_NOT_EXISTS(1000,"订单不存在"),
-    ;
+    ORDER_NOT_EXISTS(1000, "订单不存在"),;
 
-    private int code= BasicError.DEFAULT.getCode();
+    private int code = BasicError.DEFAULT.getCode();
 
-    private String message= BasicError.DEFAULT.getMessage();
+    private String message = BasicError.DEFAULT.getMessage();
 
-    APIError(){
+    APIError() {
     }
 
 
@@ -35,7 +34,7 @@ public enum APIError implements Error {
 
     @Override
     public String toString(String remark) {
-        return BasicError.DEFAULT.toString(this,remark);
+        return BasicError.DEFAULT.toString(this, remark);
     }
 
     APIError(int code, String message) {

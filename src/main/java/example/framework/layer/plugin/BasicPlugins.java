@@ -12,5 +12,5 @@ import java.util.Set;
  * Time:16:30
  */
 public interface BasicPlugins {
-    Set<SercurityGuard> sercurityGuards=new HashSet<>();
+    Set<SercurityGuard> sercurityGuards = new HashSet<>();
 }

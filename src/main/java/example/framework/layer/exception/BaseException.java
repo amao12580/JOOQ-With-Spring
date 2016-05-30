@@ -4,7 +4,7 @@ package example.framework.layer.exception;
  * Created by Administrator on 2015/12/11.
  */
 public abstract class BaseException extends RuntimeException {
-    public abstract int getCode() ;
+    public abstract int getCode();
 
     /**
      * Constructs a new runtime exception with the specified detail message.

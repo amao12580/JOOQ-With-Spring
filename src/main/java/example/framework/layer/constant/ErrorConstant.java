@@ -10,13 +10,13 @@ import java.util.Set;
  * Time:17:27
  */
 public class ErrorConstant {
-    private static Set<Integer> codes=new LinkedHashSet<>();
+    private static Set<Integer> codes = new LinkedHashSet<>();
 
-    public static boolean set(Integer code){
+    public static boolean set(Integer code) {
         return codes.add(code);
     }
 
-    public static boolean isEmpty(){
+    public static boolean isEmpty() {
         return codes.isEmpty();
     }
 }

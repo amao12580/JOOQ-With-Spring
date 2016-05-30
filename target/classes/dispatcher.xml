@@ -22,7 +22,7 @@
                 <constructor-arg value="UTF-8"/>
             </bean>
             <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
-                <property name="supportedMediaTypes" value="application/json;charset=UTF-8" />
+                <property name="supportedMediaTypes" value="application/json;charset=UTF-8"/>
                 <property name="features">
                     <array>
                         <value>WriteMapNullValue</value>

@@ -7,10 +7,10 @@
           <element id="module-output" name="JOOQ-With-Spring" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.5" />
-          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.5" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.6" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.6" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
-          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.5" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.6" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
@@ -24,9 +24,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.5.4" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
-          <element id="library" level="project" name="Maven: org.jooq:jooq-codegen:3.7.3" />
-          <element id="library" level="project" name="Maven: org.jooq:jooq:3.7.3" />
-          <element id="library" level="project" name="Maven: org.jooq:jooq-meta:3.7.3" />
+          <element id="library" level="project" name="Maven: org.jooq:jooq-codegen:3.8.2" />
+          <element id="library" level="project" name="Maven: org.jooq:jooq:3.8.2" />
+          <element id="library" level="project" name="Maven: org.jooq:jooq-meta:3.8.2" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
           <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:2.4.5" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.8" />

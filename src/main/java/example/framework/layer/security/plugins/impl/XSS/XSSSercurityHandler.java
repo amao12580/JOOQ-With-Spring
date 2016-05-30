@@ -11,7 +11,7 @@ import java.util.Set;
 
 /**
  * 解决SQL注入或脚本注入的安全问题
- *
+ * <p>
  * Created with IntelliJ IDEA.
  * User:ChengLiang
  * Date:2016/4/18
@@ -21,7 +21,7 @@ public class XSSSercurityHandler implements SercurityGuard {
     /**
      * 风险值与覆盖值的键值对
      */
-    private static Map<String,String> riskTags=new HashMap<>();
+    private static Map<String, String> riskTags = new HashMap<>();
 
     static {
         riskTags.put("<", "& lt;");
@@ -44,15 +44,15 @@ public class XSSSercurityHandler implements SercurityGuard {
     @Override
     public boolean checkRisk(Object... args) {
         LogHelper.info("XSS模块开始检查，args:{}", Utils.toString(args));
-        for (Object obj :args){
-            if(obj!=null){
-                String str=obj.toString();
-                Set<String> riskKeys=riskTags.keySet();
-                Iterator<String> iterator=riskKeys.iterator();
-                while (iterator.hasNext()){
-                    String key=iterator.next();
-                    if(str.contains(key)){
-                        LogHelper.error("参数值:{},存在不合法标记:{}",str,key);
+        for (Object obj : args) {
+            if (obj != null) {
+                String str = obj.toString();
+                Set<String> riskKeys = riskTags.keySet();
+                Iterator<String> iterator = riskKeys.iterator();
+                while (iterator.hasNext()) {
+                    String key = iterator.next();
+                    if (str.contains(key)) {
+                        LogHelper.error("参数值:{},存在不合法标记:{}", str, key);
                         return false;
                     }
                 }

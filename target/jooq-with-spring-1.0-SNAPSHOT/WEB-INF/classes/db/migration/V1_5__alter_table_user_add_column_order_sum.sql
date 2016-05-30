@@ -1,0 +1,1 @@
+ALTER TABLE `user` ADD COLUMN `order_sum`  int(11) NOT NULL DEFAULT 0 COMMENT '¶©µ¥Á¿' AFTER `register_time`;

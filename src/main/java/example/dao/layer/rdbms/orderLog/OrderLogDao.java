@@ -9,5 +9,5 @@ import example.business.layer.order.enums.Status;
  * Time:18:30
  */
 public interface OrderLogDao {
-    int add(int orderId,Status status);
+    int add(int orderId, Status status);
 }

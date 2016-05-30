@@ -12,14 +12,14 @@ import java.util.Set;
  * Time:14:27
  */
 public interface Error {
-    int defaultCode=0;
-    String defaultMessage="ok.";
+    int defaultCode = 0;
+    String defaultMessage = "ok.";
 
-    static boolean set(Integer code){
+    static boolean set(Integer code) {
         return ErrorConstant.set(code);
     }
 
-    static boolean isEmpty(){
+    static boolean isEmpty() {
         return ErrorConstant.isEmpty();
     }
 
