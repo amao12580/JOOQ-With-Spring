@@ -14,7 +14,7 @@
 
     <properties>
         <org.springframework.version>4.2.5.RELEASE</org.springframework.version>
-        <org.jooq.version>3.8.3</org.jooq.version>
+        <org.jooq.version>3.8.4</org.jooq.version>
         <mysql.version>5.1.38</mysql.version>
 
         <log4j.version>[2.5,)</log4j.version>
@@ -40,7 +40,7 @@
 
         <config.jdbc.url>jdbc:mysql://127.0.0.1:3306</config.jdbc.url>
         <config.jdbc.username>root</config.jdbc.username>
-        <config.jdbc.password>zhilaiadmin</config.jdbc.password>
+        <config.jdbc.password>123456</config.jdbc.password>
         <config.jdbc.schema>study</config.jdbc.schema>
 
         <code.generator.packageName>example.dao.layer.rdbms.base.model</code.generator.packageName>
@@ -171,24 +171,24 @@
     <build>
         <plugins>
             <!--读取Properties文件的插件 -->
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>properties-maven-plugin</artifactId>
-                <version>1.0-alpha-2</version>
-                <executions>
-                    <execution>
-                        <phase>initialize</phase>
-                        <goals>
-                            <goal>read-project-properties</goal>
-                        </goals>
-                        <configuration>
-                            <files>
-                                <file>src/main/resources/config.properties</file>
-                            </files>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+            <!--<plugin>-->
+            <!--<groupId>org.codehaus.mojo</groupId>-->
+            <!--<artifactId>properties-maven-plugin</artifactId>-->
+            <!--<version>1.0-alpha-2</version>-->
+            <!--<executions>-->
+            <!--<execution>-->
+            <!--<phase>initialize</phase>-->
+            <!--<goals>-->
+            <!--<goal>read-project-properties</goal>-->
+            <!--</goals>-->
+            <!--<configuration>-->
+            <!--<files>-->
+            <!--<file>src/main/resources/config.properties</file>-->
+            <!--</files>-->
+            <!--</configuration>-->
+            <!--</execution>-->
+            <!--</executions>-->
+            <!--</plugin>-->
             <!--数据库迁移, 同步的插件 -->
             <plugin>
                 <groupId>org.flywaydb</groupId>
@@ -413,7 +413,7 @@
     <mailingLists>
         <mailingList>
             <name>ChengLiang</name>
-            <post>chengliang@echiele.com</post>
+            <post>stevenchengmask@gmail.com</post>
         </mailingList>
     </mailingLists>
 
@@ -421,7 +421,7 @@
         <developer>
             <id>chengliang</id>
             <name>ChengLiang</name>
-            <email>chengliang@echiele.com</email>
+            <email>stevenchengmask@gmail.com</email>
             <timezone>8</timezone>
         </developer>
     </developers>

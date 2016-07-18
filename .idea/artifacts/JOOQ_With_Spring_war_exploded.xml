@@ -24,14 +24,14 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.5.4" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
-          <element id="library" level="project" name="Maven: org.jooq:jooq-codegen:3.8.3" />
-          <element id="library" level="project" name="Maven: org.jooq:jooq:3.8.3" />
-          <element id="library" level="project" name="Maven: org.jooq:jooq-meta:3.8.3" />
+          <element id="library" level="project" name="Maven: org.jooq:jooq-codegen:3.8.4" />
+          <element id="library" level="project" name="Maven: org.jooq:jooq:3.8.4" />
+          <element id="library" level="project" name="Maven: org.jooq:jooq-meta:3.8.4" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
           <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:2.4.7" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.8" />
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.9.4" />
-          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.13" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.14" />
         </element>
       </element>
       <element id="directory" name="META-INF">

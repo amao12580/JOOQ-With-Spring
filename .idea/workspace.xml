@@ -2,21 +2,303 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f049ab03-5dd7-4c5a-8f8b-ece7336c47d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/jooq/example/Data.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/jooq/example/JSONTest.java" />
-      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__com_alibaba_fastjson_1_2_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__com_zaxxer_HikariCP_2_4_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__joda_time_joda_time_2_9_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__org_apache_logging_log4j_log4j_api_2_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__org_apache_logging_log4j_log4j_core_2_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__org_jooq_jooq_3_8_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__org_jooq_jooq_codegen_3_8_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__org_jooq_jooq_meta_3_8_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\jooq-with-spring-1.0-SNAPSHOT\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\jooq-with-spring-1.0-SNAPSHOT\WEB-INF\lib\HikariCP-2.4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\jooq-with-spring-1.0-SNAPSHOT\WEB-INF\lib\fastjson-1.2.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\jooq-with-spring-1.0-SNAPSHOT\WEB-INF\lib\joda-time-2.9.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\jooq-with-spring-1.0-SNAPSHOT\WEB-INF\lib\jooq-3.8.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\jooq-with-spring-1.0-SNAPSHOT\WEB-INF\lib\jooq-codegen-3.8.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\jooq-with-spring-1.0-SNAPSHOT\WEB-INF\lib\jooq-meta-3.8.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\jooq-with-spring-1.0-SNAPSHOT\WEB-INF\lib\log4j-api-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\jooq-with-spring-1.0-SNAPSHOT\WEB-INF\lib\log4j-core-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\jooq-with-spring-1.0-SNAPSHOT\WEB-INF\lib\log4j-slf4j-impl-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\test-classes\org\jooq\example\Data.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\test-classes\org\jooq\example\JSONTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\JOOQ-With-Spring\target\test-classes\org\jooq\example\OrderTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/DefaultCatalog.class" afterPath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/DefaultCatalog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/DefaultCatalog.class" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/DefaultCatalog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/framework/layer/rdbms/transaction/JooqTransactionFactory.class" afterPath="$PROJECT_DIR$/target/classes/example/framework/layer/rdbms/transaction/JooqTransactionFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/framework/layer/rdbms/transaction/JooqTransactionFactory.class" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/framework/layer/rdbms/transaction/JooqTransactionFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/Order.class" afterPath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/Order.class" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/OrderLog.class" afterPath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/OrderLog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/OrderLog.class" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/OrderLog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.class" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/records/OrderLogRecord.class" afterPath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/records/OrderLogRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/records/OrderLogRecord.class" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/records/OrderLogRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/records/OrderRecord.class" afterPath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/records/OrderRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/records/OrderRecord.class" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/records/OrderRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/SchemaVersion.class" afterPath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/SchemaVersion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/SchemaVersion.class" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/SchemaVersion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/records/SchemaVersionRecord.class" afterPath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/records/SchemaVersionRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/records/SchemaVersionRecord.class" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/records/SchemaVersionRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/Study.class" afterPath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/Study.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/Study.class" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/Study.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/User.class" afterPath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/User.class" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/records/UserRecord.class" afterPath="$PROJECT_DIR$/target/classes/example/dao/layer/rdbms/base/model/tables/records/UserRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/records/UserRecord.class" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/example/dao/layer/rdbms/base/model/tables/records/UserRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT-javadoc.jar" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT-sources.jar" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/base/layer/protocol/response/APIError.html" afterPath="$PROJECT_DIR$/target/apidocs/example/base/layer/protocol/response/APIError.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/base/layer/protocol/response/class-use/APIError.html" afterPath="$PROJECT_DIR$/target/apidocs/example/base/layer/protocol/response/class-use/APIError.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/BaseException.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/BaseException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/class-use/BaseException.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/class-use/BaseException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/BasicController.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/BasicController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/class-use/BasicController.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/class-use/BasicController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/BasicError.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/BasicError.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/class-use/BasicError.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/class-use/BasicError.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/plugin/BasicPlugins.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/plugin/BasicPlugins.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/plugin/class-use/BasicPlugins.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/plugin/class-use/BasicPlugins.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/CheckException.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/CheckException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/class-use/CheckException.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/class-use/CheckException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/DatetimeUtil.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/DatetimeUtil.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/class-use/DatetimeUtil.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/class-use/DatetimeUtil.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/DefaultCatalog.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/DefaultCatalog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/class-use/DefaultCatalog.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/class-use/DefaultCatalog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/DefaultCatalog.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/DefaultCatalog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/Error.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/Error.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/class-use/Error.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/class-use/Error.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/constant/ErrorConstant.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/constant/ErrorConstant.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/constant/class-use/ErrorConstant.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/constant/class-use/ErrorConstant.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JOOQ-With-Spring.iml" afterPath="$PROJECT_DIR$/JOOQ-With-Spring.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/JOOQ_With_Spring_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/JOOQ_With_Spring_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/JooqTransactionFactory.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/JooqTransactionFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/class-use/JooqTransactionFactory.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/class-use/JooqTransactionFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/framework/layer/rdbms/transaction/JooqTransactionFactory.java" afterPath="$PROJECT_DIR$/src/main/java/example/framework/layer/rdbms/transaction/JooqTransactionFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/JsonUtil.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/JsonUtil.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/class-use/JsonUtil.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/class-use/JsonUtil.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/Keys.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/Keys.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/class-use/Keys.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/class-use/Keys.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/Keys.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/Keys.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/log/LogHelper.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/log/LogHelper.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/log/class-use/LogHelper.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/log/class-use/LogHelper.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/Order.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/Order.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/class-use/Order.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/class-use/Order.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/Order.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/bo/OrderBo.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/bo/OrderBo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/bo/class-use/OrderBo.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/bo/class-use/OrderBo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/controller/layer/order/OrderController.html" afterPath="$PROJECT_DIR$/target/apidocs/example/controller/layer/order/OrderController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/controller/layer/order/class-use/OrderController.html" afterPath="$PROJECT_DIR$/target/apidocs/example/controller/layer/order/class-use/OrderController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/OrderDao.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/OrderDao.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/class-use/OrderDao.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/class-use/OrderDao.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/impl/OrderDaoImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/impl/OrderDaoImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/impl/class-use/OrderDaoImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/impl/class-use/OrderDaoImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/OrderLog.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/OrderLog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/class-use/OrderLog.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/class-use/OrderLog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/OrderLog.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/OrderLog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/OrderLogDao.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/OrderLogDao.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/class-use/OrderLogDao.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/class-use/OrderLogDao.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/impl/class-use/OrderLogDaoImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/impl/class-use/OrderLogDaoImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/OrderLogRecord.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/OrderLogRecord.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/class-use/OrderLogRecord.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/class-use/OrderLogRecord.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/records/OrderLogRecord.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/records/OrderLogRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/OrderRecord.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/OrderRecord.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/class-use/OrderRecord.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/class-use/OrderRecord.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/records/OrderRecord.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/records/OrderRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/OrderService.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/OrderService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/class-use/OrderService.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/class-use/OrderService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/impl/OrderServiceImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/impl/OrderServiceImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/impl/class-use/OrderServiceImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/impl/class-use/OrderServiceImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/Result.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/Result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/class-use/Result.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/class-use/Result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/interceptor/SafetyResponseInterceptor.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/interceptor/SafetyResponseInterceptor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/interceptor/class-use/SafetyResponseInterceptor.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/interceptor/class-use/SafetyResponseInterceptor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/SchemaVersion.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/SchemaVersion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/class-use/SchemaVersion.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/class-use/SchemaVersion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/SchemaVersion.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/SchemaVersion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/SchemaVersionRecord.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/SchemaVersionRecord.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/class-use/SchemaVersionRecord.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/class-use/SchemaVersionRecord.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/records/SchemaVersionRecord.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/records/SchemaVersionRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/SercurityGuard.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/SercurityGuard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/class-use/SercurityGuard.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/class-use/SercurityGuard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/SercurityPlugins.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/SercurityPlugins.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/class-use/SercurityPlugins.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/class-use/SercurityPlugins.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/SpringExceptionTranslationExecuteListener.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/SpringExceptionTranslationExecuteListener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/class-use/SpringExceptionTranslationExecuteListener.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/class-use/SpringExceptionTranslationExecuteListener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/SpringTransaction.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/SpringTransaction.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/class-use/SpringTransaction.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/class-use/SpringTransaction.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/SpringTransactionConnectionProvider.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/SpringTransactionConnectionProvider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/class-use/SpringTransactionConnectionProvider.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/class-use/SpringTransactionConnectionProvider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/SpringTransactionProvider.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/SpringTransactionProvider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/class-use/SpringTransactionProvider.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/class-use/SpringTransactionProvider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/enums/Status.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/enums/Status.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/enums/class-use/Status.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/enums/class-use/Status.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/Study.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/Study.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/class-use/Study.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/class-use/Study.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/Study.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/Study.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/SystemErrorController.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/SystemErrorController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/class-use/SystemErrorController.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/class-use/SystemErrorController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/Tables.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/Tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/class-use/Tables.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/class-use/Tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/Tables.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/Tables.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/TranslatorException.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/TranslatorException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/class-use/TranslatorException.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/class-use/TranslatorException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/User.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/User.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/class-use/User.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/class-use/User.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/User.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/UserDao.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/UserDao.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/class-use/UserDao.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/class-use/UserDao.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/impl/UserDaoImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/impl/UserDaoImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/impl/class-use/UserDaoImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/impl/class-use/UserDaoImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/UserRecord.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/UserRecord.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/class-use/UserRecord.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/class-use/UserRecord.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/records/UserRecord.java" afterPath="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/records/UserRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/UserService.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/UserService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/class-use/UserService.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/class-use/UserService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/impl/UserServiceImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/impl/UserServiceImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/impl/class-use/UserServiceImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/impl/class-use/UserServiceImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/vo/UserWithOrder.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/vo/UserWithOrder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/vo/class-use/UserWithOrder.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/vo/class-use/UserWithOrder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/Utils.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/Utils.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/class-use/Utils.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/class-use/Utils.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/impl/XSS/XSSSercurityHandler.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/impl/XSS/XSSSercurityHandler.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/impl/XSS/class-use/XSSSercurityHandler.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/impl/XSS/class-use/XSSSercurityHandler.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config.properties" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/config.properties" afterPath="$PROJECT_DIR$/target/jooq-with-spring-1.0-SNAPSHOT/WEB-INF/classes/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="$PROJECT_DIR$/target/apidocs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/base/layer/protocol/response/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/base/layer/protocol/response/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/bo/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/bo/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/enums/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/enums/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/impl/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/impl/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/vo/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/vo/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/impl/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/impl/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/controller/layer/order/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/controller/layer/order/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/impl/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/impl/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/impl/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/impl/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/impl/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/impl/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/constant/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/constant/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/interceptor/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/interceptor/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/log/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/log/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/plugin/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/plugin/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/impl/XSS/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/impl/XSS/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/base/layer/protocol/response/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/base/layer/protocol/response/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/bo/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/bo/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/enums/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/enums/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/impl/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/impl/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/vo/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/vo/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/impl/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/impl/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/controller/layer/order/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/controller/layer/order/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/impl/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/impl/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/impl/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/impl/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/impl/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/impl/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/constant/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/constant/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/interceptor/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/interceptor/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/log/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/log/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/plugin/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/plugin/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/impl/XSS/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/impl/XSS/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/base/layer/protocol/response/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/base/layer/protocol/response/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/bo/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/bo/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/enums/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/enums/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/impl/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/impl/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/vo/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/vo/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/impl/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/impl/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/controller/layer/order/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/controller/layer/order/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/impl/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/impl/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/impl/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/impl/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/impl/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/impl/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/constant/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/constant/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/interceptor/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/interceptor/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/log/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/log/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/plugin/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/plugin/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/impl/XSS/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/impl/XSS/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/base/layer/protocol/response/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/base/layer/protocol/response/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/bo/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/bo/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/enums/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/enums/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/impl/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/service/impl/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/vo/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/order/vo/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/impl/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/business/layer/user/service/impl/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/controller/layer/order/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/controller/layer/order/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/base/model/tables/records/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/impl/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/orderLog/impl/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/impl/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/order/impl/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/impl/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/dao/layer/rdbms/user/impl/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/constant/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/constant/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/interceptor/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/controller/interceptor/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/exception/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/log/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/log/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/plugin/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/plugin/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/protocol/response/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/rdbms/transaction/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/impl/XSS/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/security/plugins/impl/XSS/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/example/framework/layer/util/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/serialized-form.html" afterPath="$PROJECT_DIR$/target/apidocs/serialized-form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__com_alibaba_fastjson_1_2_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_14.xml" />
+      <change type="MOVED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__org_jooq_jooq_3_8_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jooq_jooq_3_8_4.xml" />
+      <change type="MOVED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__org_jooq_jooq_codegen_3_8_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jooq_jooq_codegen_3_8_4.xml" />
+      <change type="MOVED" beforePath="D:\GitHub\JOOQ-With-Spring\.idea\libraries\Maven__org_jooq_jooq_meta_3_8_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jooq_jooq_meta_3_8_4.xml" />
     </list>
     <ignored path="JOOQ-With-Spring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,27 +334,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="52" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSONTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/example/JSONTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1316397">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+              <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,53 +342,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONReader.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/fastjson/1.2.13/fastjson-1.2.13.jar!/com/alibaba/fastjson/JSONReader.class">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.535714">
-              <caret line="169" column="16" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="16" />
-              <folding>
-                <element signature="e#4409#4410#0" expanded="true" />
-                <element signature="e#4444#4445#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/example/Data.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comparable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_74/src.zip!/java/lang/Comparable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
+            <state vertical-scroll-proportion="10.030418">
+              <caret line="427" column="0" selection-start-line="427" selection-start-column="0" selection-end-line="427" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractChronology.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_74/src.zip!/java/time/chrono/AbstractChronology.java">
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="696" column="15" selection-start-line="696" selection-start-column="15" selection-end-line="696" selection-end-column="15" />
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j2.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderRecord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/records/OrderRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
               <folding>
-                <element signature="e#33467#33468#0" expanded="true" />
-                <element signature="e#33522#33523#0" expanded="true" />
+                <element signature="e#1494#1495#0" expanded="true" />
+                <element signature="e#1523#1524#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/order/impl/OrderDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,7 +399,27 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/example/OrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/user/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JooqTransactionFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/example/framework/layer/rdbms/transaction/JooqTransactionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -162,7 +446,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/example/framework/layer/security/plugins/XSS/SercurityPlugins.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/framework/layer/security/plugins/XSS/XSSSercurityImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/framework/layer/security/plugins/XSS/XSSSercurityHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/framework/layer/security/SercurityGuard.java" />
@@ -198,21 +481,22 @@
         <option value="$PROJECT_DIR$/src/main/java/example/business/layer/user/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/controller/layer/order/OrderController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/order/impl/OrderDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/DefaultCatalog.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/framework/layer/rdbms/transaction/SpringExceptionTranslationExecuteListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/framework/layer/rdbms/transaction/SpringTransactionConnectionProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/example/framework/layer/rdbms/transaction/JooqTransactionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/business/layer/user/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/framework/layer/rdbms/transaction/SpringTransactionProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/user/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jooq-spring.xml" />
         <option value="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/user/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/business/layer/order/service/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/jooq/example/Data.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/jooq/example/JSONTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/example/framework/layer/rdbms/transaction/JooqTransactionFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/order/impl/OrderDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -263,24 +547,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Plugins" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="jooq-with-spring-1.0-SNAPSHOT" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="flyway" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -767,22 +1033,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JOOQ-With-Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JOOQ-With-Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -818,6 +1068,10 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -881,6 +1135,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -889,8 +1165,232 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rdbms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOOQ-With-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -921,7 +1421,7 @@
       <recent name="example.base.layer.protocol.response" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JSONTest.readJSONFromFile">
+  <component name="RunManager" selected="Tomcat Server.example">
     <configuration default="false" name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1024,6 +1524,9 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+      </RunnerSettings>
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.22" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="D:/Program Files/Java/jdk1.8.0_74/jre">
@@ -1390,6 +1893,10 @@
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="61972" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="JVM" value="D:/Program Files/Java/jdk1.8.0_74" />
+        <option name="WINDOW" value="false" />
+      </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -1406,6 +1913,21 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JProfiler">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -1500,16 +2022,17 @@
       <workItem from="1465713039652" duration="1204000" />
       <workItem from="1466158388343" duration="89000" />
       <workItem from="1468562526185" duration="2407000" />
-      <workItem from="1468565258065" duration="3554000" />
+      <workItem from="1468565258065" duration="4768000" />
+      <workItem from="1468829915433" duration="2932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149530000" />
+    <option name="totallyTimeSpent" value="153676000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1521,7 +2044,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5261745" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16977078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37986577" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25503355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1598,48 +2121,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/framework/layer/protocol/response/Error.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/framework/layer/protocol/response/BasicError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/framework/layer/controller/BasicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/framework/layer/controller/SystemErrorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/order/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/controller/layer/order/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/DefaultCatalog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1654,28 +2135,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/order/impl/OrderDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/jooq/jooq/3.8.2/jooq-3.8.2.jar!/org/jooq/impl/ExecuteListeners.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.892857">
           <caret line="51" column="20" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1814,36 +2277,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jooq-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.535714">
-          <caret line="58" column="128" selection-start-line="58" selection-start-column="111" selection-end-line="58" selection-end-column="128" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/framework/layer/rdbms/transaction/JooqTransactionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/user/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/example/framework/layer/rdbms/transaction/SpringTransactionProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1854,43 +2291,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/business/layer/order/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/example/OrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_74/src.zip!/java/io/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="28" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1898,7 +2302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1906,7 +2309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36144578">
           <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1915,8 +2317,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="696" column="15" selection-start-line="696" selection-start-column="15" selection-end-line="696" selection-end-column="15" />
           <folding>
-            <element signature="e#33467#33468#0" expanded="true" />
-            <element signature="e#33522#33523#0" expanded="true" />
+            <element signature="e#0#36042#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6683#6684#0" expanded="false" />
+            <element signature="e#6744#6745#0" expanded="false" />
+            <element signature="e#34588#34589#0" expanded="false" />
+            <element signature="e#34653#34654#0" expanded="false" />
+            <element signature="e#34945#34946#0" expanded="false" />
+            <element signature="e#34975#34976#0" expanded="false" />
+            <element signature="e#35414#35415#0" expanded="false" />
+            <element signature="e#35467#35468#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1925,7 +2335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45785877">
           <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1933,7 +2342,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="e#0#5812#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1958,20 +2369,17 @@
         <state vertical-scroll-proportion="0.3726708">
           <caret line="140" column="15" selection-start-line="140" selection-start-column="15" selection-end-line="140" selection-end-column="15" />
           <folding>
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5675#5676#0" expanded="true" />
+            <element signature="e#5644#5645#0" expanded="false" />
+            <element signature="e#5675#5676#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/fastjson/1.2.13/fastjson-1.2.13.jar!/com/alibaba/fastjson/JSONReader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.535714">
+        <state vertical-scroll-proportion="0.0">
           <caret line="169" column="16" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="16" />
-          <folding>
-            <element signature="e#4409#4410#0" expanded="true" />
-            <element signature="e#4444#4445#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1980,21 +2388,155 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="false" />
+            <element signature="e#266#267#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#342#343#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#401#402#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
+            <element signature="e#507#508#0" expanded="false" />
+            <element signature="e#535#536#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/example/JSONTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1316397">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/example.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/business/layer/order/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/business/layer/order/enums/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2923077">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/jooq/jooq/3.8.3/jooq-3.8.3.jar!/org/jooq/impl/DSL.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35362998">
+          <caret line="410" column="28" selection-start-line="410" selection-start-column="18" selection-end-line="410" selection-end-column="28" />
+          <folding>
+            <element signature="e#13262#13263#0" expanded="true" />
+            <element signature="e#13321#13322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jooq-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.107143">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/base/model/tables/records/OrderRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+          <folding>
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/jooq/jooq/3.8.3/jooq-3.8.3.jar!/org/jooq/Batch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/framework/layer/rdbms/transaction/JooqTransactionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/user/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/jooq/example/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/order/impl/OrderDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/dao/layer/rdbms/orderLog/impl/OrderLogDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.030418">
+          <caret line="427" column="0" selection-start-line="427" selection-start-column="0" selection-end-line="427" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
