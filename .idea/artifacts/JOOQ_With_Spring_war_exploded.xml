@@ -31,7 +31,7 @@
           <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:2.4.7" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.8" />
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.9.4" />
-          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.14" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.15" />
         </element>
       </element>
       <element id="directory" name="META-INF">

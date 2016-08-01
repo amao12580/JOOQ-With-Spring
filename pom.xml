@@ -17,15 +17,15 @@
         <org.jooq.version>3.8.4</org.jooq.version>
         <mysql.version>5.1.38</mysql.version>
 
-        <log4j.version>[2.5,)</log4j.version>
-        <slf4j.version>[1.7.21,)</slf4j.version>
+        <log4j.version>2.6.2</log4j.version>
+        <slf4j.version>1.7.21</slf4j.version>
 
         <alibaba.fastjson>[1.2.8,)</alibaba.fastjson>
 
         <org.projectlombok>1.16.8</org.projectlombok>
         <joda.time>[2.9.3,)</joda.time>
         <com.zaxxer>[2.4.5,)</com.zaxxer>
-        <junit>[4.12,)</junit>
+        <junit>4.12</junit>
 
         <java.version>1.8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>

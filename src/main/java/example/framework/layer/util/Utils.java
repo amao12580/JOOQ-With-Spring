@@ -5,6 +5,7 @@ import example.framework.layer.protocol.response.Error;
 
 import java.sql.Timestamp;
 import java.util.Map;
+import java.util.Random;
 
 /**
  * Created by Administrator on 2016/4/13.
@@ -82,4 +83,41 @@ public class Utils {
     }
 
     //对数据检查的操作    结束
+
+
+
+    private static final String ALLCHAR = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private static final String LETTERCHAR = "abcdefghijkllmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private static final String NUMBERCHAR = "0123456789";
+
+    public static String generateMixedString(int length) {
+        StringBuffer stringBuffer = new StringBuffer();
+        Random random = new Random();
+        for (int i = 0; i < length; i++) {
+            stringBuffer.append(ALLCHAR.charAt(random.nextInt(ALLCHAR.length())));
+        }
+        return stringBuffer.toString();
+    }
+
+    public static String generateLetterString(int length) {
+        StringBuffer stringBuffer = new StringBuffer();
+        Random random = new Random();
+        for (int i = 0; i < length; i++) {
+            stringBuffer.append(LETTERCHAR.charAt(random.nextInt(LETTERCHAR.length())));
+        }
+        return stringBuffer.toString();
+    }
+
+    public static String generateNumberString(int length) {
+        StringBuffer stringBuffer = new StringBuffer();
+        Random random = new Random();
+        for (int i = 0; i < length; i++) {
+            stringBuffer.append(NUMBERCHAR.charAt(random.nextInt(NUMBERCHAR.length())));
+        }
+        return stringBuffer.toString();
+    }
+
+    public static int generateNumber(int length) {
+        return Integer.valueOf(generateNumberString(length));
+    }
 }

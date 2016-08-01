@@ -35,6 +35,7 @@ D:\GitHub\JOOQ-With-Spring\src\main\java\example\framework\layer\log\LogHelper.j
 D:\GitHub\JOOQ-With-Spring\src\main\java\example\business\layer\order\enums\Status.java
 D:\GitHub\JOOQ-With-Spring\src\main\java\example\framework\layer\util\Utils.java
 D:\GitHub\JOOQ-With-Spring\src\main\java\example\business\layer\order\vo\UserWithOrder.java
+D:\GitHub\JOOQ-With-Spring\src\main\java\example\framework\layer\rdbms\cache\JDBCacheProvider.java
 D:\GitHub\JOOQ-With-Spring\src\main\java\example\framework\layer\constant\ErrorConstant.java
 D:\GitHub\JOOQ-With-Spring\src\main\java\example\dao\layer\rdbms\orderLog\impl\OrderLogDaoImpl.java
 D:\GitHub\JOOQ-With-Spring\src\main\java\example\framework\layer\rdbms\transaction\JooqTransactionFactory.java

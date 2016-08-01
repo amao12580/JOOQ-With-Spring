@@ -1,3 +1,4 @@
+example\framework\layer\rdbms\cache\JDBCacheProvider.class
 example\framework\layer\util\Utils.class
 example\dao\layer\rdbms\orderLog\OrderLogDao.class
 example\business\layer\user\service\impl\UserServiceImpl.class

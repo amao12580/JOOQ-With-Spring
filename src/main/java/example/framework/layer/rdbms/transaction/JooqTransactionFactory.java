@@ -7,8 +7,6 @@ import org.jooq.impl.DSL;
 import org.jooq.impl.DefaultConfiguration;
 import org.jooq.impl.DefaultExecuteListenerProvider;
 
-import javax.sql.DataSource;
-
 /**
  * Created with IntelliJ IDEA.
  * User:ChengLiang
@@ -17,35 +15,27 @@ import javax.sql.DataSource;
  */
 public class JooqTransactionFactory {
 
-    //private final static Configuration config = new DefaultConfiguration();
     private Configuration config;
     private DSLContext context;
+//    private ConnectionProvider connectionProvider;
 
-    public JooqTransactionFactory(SpringTransactionProvider springTransactionProvider, SpringExceptionTranslationExecuteListener springExceptionTranslationExecuteListener, DataSource dataSource) {
+    public JooqTransactionFactory(SpringTransactionConnectionProvider springTransactionConnectionProvider, SpringTransactionProvider springTransactionProvider, SpringExceptionTranslationExecuteListener springExceptionTranslationExecuteListener) {
+//        connectionProvider = springTransactionConnectionProvider;
+
         if (config == null) {
-            config = new DefaultConfiguration();
-            config.set(new SpringTransactionConnectionProvider(dataSource)).
+            config = new DefaultConfiguration().
+                    //set(new MockConnection(new JDBCacheProvider(springTransactionConnectionProvider))).
+                            set(springTransactionConnectionProvider).
                     set(SQLDialect.MYSQL).
                     set(springTransactionProvider).
                     set(new DefaultExecuteListenerProvider(springExceptionTranslationExecuteListener));
         }
     }
 
-//    public JooqTransactionFactory(DataSource ds, SQLDialect dialect) {
-//        this(ds, dialect, new Settings().withRenderSchema(false));
-//    }
-//
-//    public JooqTransactionFactory(DataSource ds, SQLDialect dialect,
-//                                  Settings settings) {
-//        config.set(new SpringTransactionConnectionProvider(ds)).set(dialect).set(
-//                settings).set(
-//                new DefaultExecuteListenerProvider(
-//                        new SpringExceptionTranslationExecuteListener()));
-//    }
-
     public DSLContext context() {
         if (context == null) {
             context = DSL.using(config);
+//            context = DSL.using(new MockConnection(new JDBCacheProvider(connectionProvider.acquire())), SQLDialect.MYSQL);
         }
         return context;
     }

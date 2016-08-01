@@ -56,10 +56,16 @@
     <bean id="springExceptionTranslationExecuteListener"
           class="example.framework.layer.rdbms.transaction.SpringExceptionTranslationExecuteListener"/>
 
-    <bean id="jooqTransactionFactory" class="example.framework.layer.rdbms.transaction.JooqTransactionFactory" scope="prototype">
+    <bean id="springTransactionConnectionProvider"
+          class="example.framework.layer.rdbms.transaction.SpringTransactionConnectionProvider">
+        <constructor-arg ref="dataSource"/>
+    </bean>
+
+    <bean id="jooqTransactionFactory" class="example.framework.layer.rdbms.transaction.JooqTransactionFactory"
+          scope="prototype">
+        <constructor-arg ref="springTransactionConnectionProvider"/>
         <constructor-arg ref="springTransactionProvider"/>
         <constructor-arg ref="springExceptionTranslationExecuteListener"/>
-        <constructor-arg ref="dataSource"/>
     </bean>
 
 </beans>

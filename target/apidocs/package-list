@@ -23,6 +23,7 @@ example.framework.layer.exception
 example.framework.layer.log
 example.framework.layer.plugin
 example.framework.layer.protocol.response
+example.framework.layer.rdbms.cache
 example.framework.layer.rdbms.transaction
 example.framework.layer.security
 example.framework.layer.security.plugins

@@ -27,13 +27,9 @@ public class SpringTransactionConnectionProvider implements ConnectionProvider {
     @Override
     public Connection acquire() {
         try {
-            if(ds==null){
-                System.out.println("@@@@@@@@@@@@@@@");
-            }
             return DataSourceUtils.doGetConnection(ds);
         } catch (SQLException e) {
-            throw new DataAccessException(
-                    "Error getting connection from data source " + ds, e);
+            throw new DataAccessException("Error getting connection from data source " + ds, e);
         }
     }
 
