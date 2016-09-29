@@ -19,6 +19,10 @@ import java.util.concurrent.ConcurrentHashMap;
  * User:ChengLiang
  * Date:2016/8/1
  * Time:16:03
+ *
+ *
+ * 思路：https://dzone.com/articles/hack-simple-jdbc-resultset
+ *
  */
 public class JDBCacheProvider implements MockDataProvider {
     //Feature
