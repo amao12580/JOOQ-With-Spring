@@ -13,7 +13,7 @@
     <packaging>war</packaging>
 
     <properties>
-        <org.springframework.version>4.2.5.RELEASE</org.springframework.version>
+        <org.springframework.version>6.1.13</org.springframework.version>
         <org.jooq.version>3.8.4</org.jooq.version>
         <mysql.version>5.1.38</mysql.version>
 
